@@ -20,7 +20,7 @@ document.getElementById("box").style.backgroundColor="blue" ;
 
     document.getElementById("box").style.transition = "opacity 1.0s linear 0s";
 
-    document.getElementById("box").style.opacity = 0;
+    document.getElementById("box").style.opacity = 0.3;
 
 });
 
