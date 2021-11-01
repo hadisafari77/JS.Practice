@@ -16,11 +16,14 @@ document.getElementById("box").style.backgroundColor="blue" ;
     });
 
 
-    document.getElementById("button3").addEventListener("click", function(){
+  document.getElementById("button3").addEventListener("click", function fadeOut() {
 
-        document.getElementById("box").style.opacity = 0.3
+    document.getElementById("box").style.transition = "opacity 1.0s linear 0s";
 
-      });
+    document.getElementById("box").style.opacity = 0;
+
+});
+
 
 document.getElementById("button4").addEventListener("click", function(){ 
 
